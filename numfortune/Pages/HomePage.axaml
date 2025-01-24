@@ -1,0 +1,13 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:pages="clr-namespace:numfortune.Pages"
+             x:Class="numfortune.Pages.HomePage"
+			 x:DataType="pages:HomePage">
+<StackPanel>
+		<TextBox x:Name="cookie" TextWrapping="Wrap" AcceptsReturn="true" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="false"/>
+		<Button Content="Get new Cookie" HorizontalAlignment="Center" VerticalAlignment="Center" Click="OnTick_Click"/>
+</StackPanel>
+</UserControl>
