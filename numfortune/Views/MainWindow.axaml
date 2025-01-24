@@ -6,7 +6,7 @@
         xmlns:views="clr-namespace:numfortune.Views"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="numfortune.Views.MainWindow"
-        Icon="/Assets/avalonia-logo.ico"
+        Icon="/Assets/icon.ico"
         Title="numfortune">
         <views:MainView />
 </Window>

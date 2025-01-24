@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numfortune", "numfortune\numfortune.csproj", "{D4E22E65-C32C-4EEE-ABC6-AD0C06F79606}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numfortune.Desktop", "numfortune.Desktop\numfortune.Desktop.csproj", "{68035C3E-4D32-45AE-9C33-AF7BABD188AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numfortune-setup", "numfortune-setup\numfortune-setup.csproj", "{F03DF10A-21FB-4B32-A208-9EFC86E25AC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{68035C3E-4D32-45AE-9C33-AF7BABD188AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68035C3E-4D32-45AE-9C33-AF7BABD188AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68035C3E-4D32-45AE-9C33-AF7BABD188AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03DF10A-21FB-4B32-A208-9EFC86E25AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03DF10A-21FB-4B32-A208-9EFC86E25AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03DF10A-21FB-4B32-A208-9EFC86E25AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03DF10A-21FB-4B32-A208-9EFC86E25AC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

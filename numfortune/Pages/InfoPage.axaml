@@ -8,8 +8,8 @@
 			 x:DataType="pages:HomePage">
 	<StackPanel>
 		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >ⓒ Giulio Sorrentino 2025, some right reserved</TextBlock>
-		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >Version .0 based on avalonia 11.2.3</TextBlock>
-		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >A simple fortune teller for android, Windows and GNU/Linux.</TextBlock>
+		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >Version 3.0 based on avalonia 11.2.3</TextBlock>
+		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >A simple fortune teller for Windows and GNU/Linux.</TextBlock>
 		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >This app is under GPL v3 or, in your humble opinion, any later version</TextBlock>
 		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >https://github.com/numerunix/numfortune.avalonia.new</TextBlock>
 	</StackPanel>
