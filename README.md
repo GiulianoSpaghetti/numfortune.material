@@ -32,7 +32,6 @@ and then update and install numfortune.avalonia
 <img width="1431" alt="2025-01-25 (3)" src="https://github.com/user-attachments/assets/c3e3e548-a873-49e6-a466-cdefd3e37e10" />
 <img width="1431" alt="2025-01-25 (2)" src="https://github.com/user-attachments/assets/05377db1-f809-46da-9611-31cf038950d8" />
 <img width="1431" alt="2025-01-25 (1)" src="https://github.com/user-attachments/assets/d2474716-1dc4-4780-bade-ba2d09dc5a67" />
-<img width="1431" alt="2024-11-19" src="https://github.com/user-attachments/assets/fcd28165-fdaa-488d-a580-f7eb8d5e18e5" />
 
 
 # Donations
