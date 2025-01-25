@@ -13,11 +13,26 @@ Then follow the guide at http://numeronesoft.ddns.net
 
 and then update and install numfortune.avalonia
 
+Prerequisites:
+
+https://learn.microsoft.com/en-us/linux/packages
+
+Note: the packages are system independent and IL, so in theory it is sufficient to reinstall the package at each desktop runtime update and start the program once to get the updated binary code.
+Obviously if they update avalonia you need to recompile.
+
 ## Windows
 
 ## Su Windows
 
 [![winget](https://user-images.githubusercontent.com/49786146/159123313-3bdafdd3-5130-4b0d-9003-40618390943a.png)](https://marticliment.com/wingetui/share?pid=GiulioSorrentino.numfortune.Avalonia&pname=numfortune.Avalonia&psource=Winget:%20winget)
+
+Prerequisites:
+
+https://winstall.app/apps/Microsoft.DotNet.DesktopRuntime.9
+
+Note: the packages are system independent and IL, so in theory it is sufficient to reinstall the package at each desktop runtime update and start the program once to get the updated binary code.
+Obviously if they update avalonia you need to recompile.
+
 
 ## Screenshots
 
