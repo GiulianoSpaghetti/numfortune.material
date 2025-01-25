@@ -16,25 +16,29 @@ public class MainViewModel : ViewModelBase
         try
         {
             httpResponse = client.GetAsync("https://helloacm.com/api/fortune/");
+
+            if (httpResponse.Result.IsSuccessStatusCode)
+            {
+
+                sTask = httpResponse.Result.Content.ReadAsStringAsync();
+                s = sTask.Result;
+                s = s.Substring(1, s.Length - 2);
+                s = s.Replace("\\n", System.Environment.NewLine);
+                s = s.Replace("\\t", "	");
+                s = s.Replace("\\\"", "\"");
+            }
+            else
+            {
+                s = $"The HTTP status code is ${httpResponse.Result.StatusCode}";
+            }
         }
-        catch (Exception ex)
+        catch (InvalidOperationException ex)
         {
             return ex.Message;
         }
-
-        if (httpResponse.Result.IsSuccessStatusCode)
+        catch (AggregateException ex)
         {
-
-            sTask = httpResponse.Result.Content.ReadAsStringAsync();
-            s = sTask.Result;
-            s = s.Substring(1, s.Length - 2);
-            s = s.Replace("\\n", System.Environment.NewLine);
-            s = s.Replace("\\t", "	");
-            s = s.Replace("\\\"", "\"");
-        }
-        else
-        {
-            s = $"The HTTP status code is ${httpResponse.Result.StatusCode}";
+            return ex.Message;
         }
         return s;
 
