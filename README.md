@@ -9,7 +9,7 @@ This is the first project does not use the google's xaml stylesheet, but use the
 ## Installing using repository (GNU/Linux)
 Follow the guide at https://learn.microsoft.com/it-it/dotnet/core/install/linux-debian first
 
-Then follow the guide at http://numeronesoft.ddns.net
+Then follow the guide at http://numeronesoft.ddns.net:8080
 
 and then update and install numfortune.avalonia
 
