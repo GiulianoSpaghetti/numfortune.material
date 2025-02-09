@@ -2,7 +2,7 @@
 
 ## numerone's fortune material
 
-A fortune's linux clone for windows and linux in avalonia dialect material of Google.
+A fortune's teller for windows and linux in avalonia dialect material of Google.
 This is the first project does not use the google's xaml stylesheet, but use the reactive ui of avalonia (it's read multitrheaded)·
 
 
