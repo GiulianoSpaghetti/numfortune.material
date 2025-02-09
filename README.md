@@ -49,6 +49,10 @@ Obviously if they update avalonia you need to recompile.
 <img width="1431" alt="2025-01-25 (1)" src="https://github.com/user-attachments/assets/d2474716-1dc4-4780-bade-ba2d09dc5a67" />
 
 
+## Presentation video
+
+https://photos.app.goo.gl/8TcadWbTCybsrCqW6
+
 # Donations
 
 http://numerone.altervista.org/donazioni.php
