@@ -7,6 +7,6 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="numfortune.Views.MainWindow"
         Icon="/Assets/avalonia-icon.ico"
-        Title="numfortune">
+        Title="numerone's fortune">
         <views:MainView />
 </Window>
