@@ -3,13 +3,13 @@
 using System;
 using WixSharp;
 
-namespace windatefrom_setup
+namespace numfortune_setup
 {
     internal class Program
     {
         static void Main()
         {
-            var project = new Project("numfortune.Avalonia",
+            Project project = new Project("numfortune.Avalonia",
                               new Dir(@"[ProgramFiles64Folder]\\numfortune.Avalonia",
                                   new DirFiles(@"*.*"),
                                   new Dir("runtimes",
