@@ -11,7 +11,7 @@
 		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >Version 3.0 based on avalonia 11.2.4</TextBlock>
 		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >A simple fortune teller for Windows and GNU/Linux.</TextBlock>
 		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >This app is under GPL v3 or, in your humble opinion, any later version</TextBlock>
-		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >https://github.com/GiulianoSpaghetti/numfortune.material</TextBlock>
+		<Button Click="OnSito_Click" >More informations</Button>
 	</StackPanel>
 </UserControl>
 	
