@@ -24,7 +24,7 @@
 										<Setter Property="VerticalContentAlignment" Value="Center" />
 									</Style>
 								</ListBox.Styles>
-								<ListBoxItem>Home</ListBoxItem>
+								<ListBoxItem>numerone's fortune</ListBoxItem>
 								<ListBoxItem>Informations</ListBoxItem>
 							</ListBox>
 					</ScrollViewer>

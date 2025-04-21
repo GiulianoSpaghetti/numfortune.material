@@ -7,10 +7,11 @@
              x:Class="numfortune.Pages.InfoPage"
 			 x:DataType="pages:HomePage">
 	<StackPanel>
-		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >ⓒ Giulio Sorrentino 2025, some right reserved</TextBlock>
-		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >Version 3.0 based on avalonia 11.2.4</TextBlock>
-		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >A simple fortune teller for Windows and GNU/Linux.</TextBlock>
-		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" >This app is under GPL v3 or, in your humble opinion, any later version</TextBlock>
+		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >ⓒ Giulio Sorrentino 2025, some right reserved</Label>
+		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >Version 3.0 based on avalonia 11.2.8</Label>
+		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >A simple fortune teller for Windows and GNU/Linux.</Label>
+		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >This app is under GPL v3 or, in your humble opinion, any later version</Label>
+		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >The sentences are taken from site https://helloacm.com/fortune/</Label>
 		<Button Click="OnSito_Click" >More informations</Button>
 	</StackPanel>
 </UserControl>
