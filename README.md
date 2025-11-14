@@ -6,32 +6,20 @@ A fortune's teller for windows and linux in avalonia dialect material of Google.
 This is the first project does not use the google's xaml stylesheet, but use the reactive ui of avalonia (it's read multitrheaded)·
 
 
-## Installing using repository (GNU/Linux)
-Follow the guide at https://learn.microsoft.com/it-it/dotnet/core/install/linux-debian first
+## How to get
 
-Then follow the guide at http://numeronesoft.ddns.net:8080
-
-and then update and install numfortune.avalonia
+On pling (https://www.pling.com/p/2296518/)
 
 Prerequisites:
+
+## Debian
 
 https://learn.microsoft.com/en-us/linux/packages
 
-Note: the packages are system independent and IL, so in theory it is sufficient to reinstall the package at each desktop runtime update and start the program once to get the updated binary code.
-Obviously if they update avalonia you need to recompile.
 
 ## Windows
 
-## Su Windows
-
-[![winget](https://user-images.githubusercontent.com/49786146/159123313-3bdafdd3-5130-4b0d-9003-40618390943a.png)](https://marticliment.com/wingetui/share?pid=GiulioSorrentino.numfortune.Avalonia&pname=numfortune.Avalonia&psource=Winget:%20winget)
-
-Prerequisites:
-
 https://winstall.app/apps/Microsoft.DotNet.DesktopRuntime.9
-
-Note: the packages are system independent and IL, so in theory it is sufficient to reinstall the package at each desktop runtime update and start the program once to get the updated binary code.
-Obviously if they update avalonia you need to recompile.
 
 
 ## Screenshots
