@@ -18,10 +18,22 @@ This is the first project does not use the google's xaml stylesheet, but use the
 [![winget](https://user-images.githubusercontent.com/49786146/159123331-729ae9f2-4cf9-439b-8515-16a4ef991089.png)](https://marticliment.com/unigetui/share?name=numerone%27s+fortune+in+avalonia&id=GiulioSorrentino.numeronesfortuneinavalonia&sourceName=winget&managerName=WinGet)
 
 
-### On debian
+### Installing using repository (GNU/Linux)
 
-It can be find on my repository at http://numeronesoft.ddns.net:8080
+Follow the guide at https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian first
 
+Then follow the guide at http://numeronesoft.ddns.net:8080
+
+and then update and install wheelofnumfortune.avalonia
+
+Prerequisites:
+
+https://learn.microsoft.com/en-us/linux/packages
+
+Note: the packages are system independent and IL, so in theory it is sufficient to reinstall the package at each desktop runtime update and start the program once to get 
+the updated binary code.
+
+Obviously if they update avalonia you need to recompile.
 
 ## Prerequisites:
 ### Debian and unix
