@@ -10,7 +10,7 @@ This is the first project does not use the google's xaml stylesheet, but use the
 
 ## On unix
 
-On pling (https://www.pling.com/p/2296518/)
+[![pling](http://numeronesoft.ddns.net:8080/images/pling.png)](https://www.pling.com/p/2296518/)
 
 
 ## On windows
