@@ -15,10 +15,6 @@ On pling (https://www.pling.com/p/2296518/)
 
 ## On windows
 
-
-
-## Per windows
-
 [![winget](https://user-images.githubusercontent.com/49786146/159123331-729ae9f2-4cf9-439b-8515-16a4ef991089.png)](https://marticliment.com/unigetui/share?name=numerone%27s+fortune+in+avalonia&id=GiulioSorrentino.numeronesfortuneinavalonia&sourceName=winget&managerName=WinGet)
 
 Prerequisites:
@@ -30,7 +26,7 @@ https://learn.microsoft.com/en-us/linux/packages
 
 ## Windows
 
-https://winstall.app/apps/Microsoft.DotNet.DesktopRuntime.10
+https://marticliment.com/unigetui/share?name=Microsoft+.NET+Windows+Desktop+Runtime+10.0&id=Microsoft.DotNet.DesktopRuntime.10&sourceName=winget&managerName=WinGet
 
 
 ## Screenshots
