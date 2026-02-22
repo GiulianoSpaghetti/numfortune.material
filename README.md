@@ -19,6 +19,11 @@ This is the first project does not use the google's xaml stylesheet, but use the
 
 Prerequisites:
 
+
+## On debian
+
+It can be find on my repository at http://numeronesoft.ddns.net:8080
+
 ## Debian
 
 https://learn.microsoft.com/en-us/linux/packages
