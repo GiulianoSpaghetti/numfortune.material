@@ -8,41 +8,41 @@ This is the first project does not use the google's xaml stylesheet, but use the
 
 ## How to get
 
-## On unix
+### On unix
 
 [![pling](http://numeronesoft.ddns.net:8080/images/pling.png)](https://www.pling.com/p/2296518/)
 
 
-## On windows
+### On windows
 
 [![winget](https://user-images.githubusercontent.com/49786146/159123331-729ae9f2-4cf9-439b-8515-16a4ef991089.png)](https://marticliment.com/unigetui/share?name=numerone%27s+fortune+in+avalonia&id=GiulioSorrentino.numeronesfortuneinavalonia&sourceName=winget&managerName=WinGet)
 
-Prerequisites:
 
-
-## On debian
+### On debian
 
 It can be find on my repository at http://numeronesoft.ddns.net:8080
 
-## Debian
+
+## Prerequisites:
+### Debian and unix
 
 https://learn.microsoft.com/en-us/linux/packages
 
 
-## Windows
+### Windows
 
 https://marticliment.com/unigetui/share?name=Microsoft+.NET+Windows+Desktop+Runtime+10.0&id=Microsoft.DotNet.DesktopRuntime.10&sourceName=winget&managerName=WinGet
 
 
 ## Screenshots
 
-## Debian
+### Debian
 
 ![Schermata del 2025-01-25 18-15-47](https://github.com/user-attachments/assets/445a2652-be51-4eff-9539-324c865ca7dd)
 ![Schermata del 2025-01-25 18-15-56](https://github.com/user-attachments/assets/2b1ab4be-e419-4fdb-b454-4876e2f52ad1)
 ![Schermata del 2025-01-25 18-16-01](https://github.com/user-attachments/assets/8bf6d0ae-66b9-495c-ba6e-1b02b5974093)
 
-## Windows
+### Windows
 
 <img width="1431" alt="2025-01-25 (3)" src="https://github.com/user-attachments/assets/c3e3e548-a873-49e6-a466-cdefd3e37e10" />
 <img width="1431" alt="2025-01-25 (2)" src="https://github.com/user-attachments/assets/05377db1-f809-46da-9611-31cf038950d8" />
