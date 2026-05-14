@@ -15,7 +15,7 @@ This is the first project does not use the google's xaml stylesheet, but use the
 
 ### On windows
 
-[![winget](https://user-images.githubusercontent.com/49786146/159123331-729ae9f2-4cf9-439b-8515-16a4ef991089.png)](https://marticliment.com/unigetui/share?name=numerone%27s+fortune+in+avalonia&id=GiulioSorrentino.numeronesfortuneinavalonia&sourceName=winget&managerName=WinGet)
+    unigetui://giuliosorrentino&#46numronesfortuneinavalonia
 
 
 ### Installing using repository (GNU/Linux)
