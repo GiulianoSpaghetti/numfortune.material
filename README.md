@@ -43,7 +43,9 @@ https://learn.microsoft.com/en-us/linux/packages
 
 ### Windows
 
-https://marticliment.com/unigetui/share?name=Microsoft+.NET+Windows+Desktop+Runtime+10.0&id=Microsoft.DotNet.DesktopRuntime.10&sourceName=winget&managerName=WinGet
+    unigetui://DesktopRuntime
+    
+install the windows desktopruntime 10
 
 
 ## Screenshots
