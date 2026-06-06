@@ -4,10 +4,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
 			 xmlns:pages="clr-namespace:numfortune.Pages"
+			 xmlns:viewModels="clr-namespace:numfortune.ViewModels"
              x:Class="numfortune.Pages.HomePage"
-			 x:DataType="pages:HomePage">
+			x:DataType="viewModels:MainViewModel">
 <StackPanel>
-		<TextBox x:Name="cookie" TextWrapping="Wrap" AcceptsReturn="true" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="false"/>
-		<Button Content="Get new Cookie" HorizontalAlignment="Center" VerticalAlignment="Center" Click="OnTick_Click"/>
+		<TextBox TextWrapping="Wrap" AcceptsReturn="true" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="false" Text="{Binding Cookie}"/>
+		<Button Content="Get new Cookie" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding Click}" />
 </StackPanel>
 </UserControl>

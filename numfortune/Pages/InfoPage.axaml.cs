@@ -11,7 +11,7 @@ public partial class InfoPage : UserControl
 {
 
     private static ILauncher? launcher = null;
-    private static readonly Uri HomePage = new Uri("https://github.com/GiulianoSpaghetti/numfortune.material");
+    private static readonly Uri HomePage = new Uri("https://www.opencode.net/numerone/numfortune-material");
     public InfoPage()
     {
         InitializeComponent();

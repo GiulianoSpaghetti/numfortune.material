@@ -11,6 +11,7 @@
              x:Class="numfortune.Views.MainView"
              x:DataType="vm:MainViewModel">
 	<dialogHostAvalonia:DialogHost Identifier="MainDialogHost">
+		<controls:SnackbarHost HostName="Root">
 			<controls:NavigationDrawer Name="LeftDrawer" Classes="permanent"
 									   LeftDrawerOpened="{Binding ElementName=NavDrawerSwitch, Path=IsChecked, Mode=TwoWay}">
 				<controls:NavigationDrawer.LeftDrawerContent>
@@ -30,6 +31,7 @@
 					</ScrollViewer>
 				</controls:NavigationDrawer.LeftDrawerContent>
 				<DockPanel LastChildFill="true">
+					<ToggleButton Name="NavDrawerSwitch" Padding="4" Content="Menu" />
 					<Carousel Name="PageCarousel"
 		  HorizontalAlignment="Stretch">
 						<Carousel.Styles>
@@ -45,5 +47,6 @@
 					</Carousel>
 				</DockPanel>
 			</controls:NavigationDrawer>
+		</controls:SnackbarHost>
 	</dialogHostAvalonia:DialogHost>
 </UserControl>
