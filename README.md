@@ -1,3 +1,5 @@
+[![.NET AVALONIA Build](https://github.com/GiulianoSpaghetti/numfortune.material/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/GiulianoSpaghetti/numfortune.material/actions/workflows/dotnet-desktop.yml)
+
 # numfortune
 
 ## numerone's fortune material
