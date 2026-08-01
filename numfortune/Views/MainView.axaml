@@ -30,18 +30,26 @@
 							</ListBox>
 					</ScrollViewer>
 				</controls:NavigationDrawer.LeftDrawerContent>
-				<DockPanel LastChildFill="true">
-					<ToggleButton Name="NavDrawerSwitch" Padding="4" Content="Menu" />
-					<Carousel Name="PageCarousel"
-		  HorizontalAlignment="Stretch">
-						<Carousel.Styles>
-							<Style Selector="Carousel#PageCarousel:not(.no-transitions)">
-								<Setter Property="PageTransition">
-									<PageSlide Duration="1.00" Orientation="Vertical" SlideOutEasing="QuarticEaseOut"
-											   SlideInEasing="QuarticEaseIn" />
-								</Setter>
-							</Style>
-						</Carousel.Styles>
+	<DockPanel LastChildFill="true">
+    <!-- Pulsante Menu agganciato in alto -->
+    <ToggleButton Name="NavDrawerSwitch" DockPanel.Dock="Top" Padding="4" Content="Menu" />
+
+    <!-- Il Carousel ora si estende in verticale e si collega alla ListBox -->
+    <Carousel Name="PageCarousel" 
+              HorizontalAlignment="Stretch" 
+              VerticalAlignment="Stretch"
+              SelectedIndex="{Binding ElementName=DrawerList, Path=SelectedIndex}">
+        
+        <Carousel.PageTransition>
+            <PageSlide Duration="00:00:00.300" Orientation="Vertical"/>
+        </Carousel.PageTransition>
+
+        <Carousel.Styles>
+            <Style Selector="Carousel.no-transitions">
+                <Setter Property="PageTransition" Value="{x:Null}" />
+            </Style>
+        </Carousel.Styles>
+
 						<pages:HomePage />
 						<pages:InfoPage />
 					</Carousel>
