@@ -4,15 +4,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
 			 xmlns:pages="clr-namespace:numfortune.Pages"
+			 xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
              x:Class="numfortune.Pages.InfoPage"
 			 x:DataType="pages:HomePage">
 	<StackPanel>
 		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >ⓒ Giulio Sorrentino 2025-2026, all right reserved</Label>
-		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >Version 3.1 based on avalonia 12.1.0</Label>
+		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >Version 3.2</Label>
 		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >A simple fortune teller for Windows and GNU/Linux.</Label>
 		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >This app is under MIT: reselling is provided.</Label>
 		<Label HorizontalAlignment="Center" VerticalAlignment="Center" >The sentences are taken from site https://helloacm.com/fortune/</Label>
-		<Button Click="OnSito_Click" >More informations</Button>
+		<Button Click="OnSito_Click" Content="{materialIcons:MaterialIconExt Kind=Web}"/>
 	</StackPanel>
 </UserControl>
 	

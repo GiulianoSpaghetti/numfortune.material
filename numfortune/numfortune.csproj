@@ -17,6 +17,8 @@
     <PackageReference Include="Avalonia.Fonts.Inter" />
     <PackageReference Include="DialogHost.Avalonia" />
     <PackageReference Include="Material.Avalonia" />
+    <PackageReference Include="Material.Icons" />
+    <PackageReference Include="Material.Icons.Avalonia" />
     <PackageReference Include="ReactiveUI" />
     <PackageReference Include="Splat" />
   </ItemGroup>

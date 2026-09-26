@@ -5,10 +5,11 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
 			 xmlns:pages="clr-namespace:numfortune.Pages"
 			 xmlns:viewModels="clr-namespace:numfortune.ViewModels"
+			 xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
              x:Class="numfortune.Pages.HomePage"
 			x:DataType="viewModels:MainViewModel">
 <StackPanel>
 		<TextBox TextWrapping="Wrap" AcceptsReturn="true" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="false" Text="{Binding Cookie}"/>
-		<Button Content="Get new Cookie" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding Click}" />
+		<Button Content="{materialIcons:MaterialIconTextExt Kind=CookieRefresh}" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding Click}" />
 </StackPanel>
 </UserControl>
