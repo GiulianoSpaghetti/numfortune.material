@@ -15,12 +15,18 @@
     <PackageReference Include="Avalonia" />
     <PackageReference Include="Avalonia.Themes.Fluent" />
     <PackageReference Include="Avalonia.Fonts.Inter" />
+    <PackageReference Include="AvaloniaUI.DiagnosticsSupport" />
     <PackageReference Include="DialogHost.Avalonia" />
     <PackageReference Include="Material.Avalonia" />
     <PackageReference Include="Material.Icons" />
     <PackageReference Include="Material.Icons.Avalonia" />
+    <PackageReference Include="MicroCom.Runtime" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" />
     <PackageReference Include="ReactiveUI" />
     <PackageReference Include="Splat" />
+    <PackageReference Include="Tmds.DBus.Protocol" />
   </ItemGroup>
 
   <ItemGroup>
